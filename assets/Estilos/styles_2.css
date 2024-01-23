@@ -1,0 +1,44 @@
+body{
+
+    background-image: url("../Imagenes/5.png");
+    
+}
+
+
+#sobre-mi {
+    padding-top: 60px;
+    height: 450px;
+    text-align: center;
+    
+  }
+  
+  #sobre-mi h1 {
+    margin-bottom: 30px
+  }
+  
+  @media (max-width: 800px){
+    #sobre-mi h1 {
+      font-size: 40px;
+    }
+    #font-size p {
+      font-size: 18px;
+    }
+    #sobre-mi {
+        padding-top: 80px;
+      height: 700px;
+    }
+  }
+  
+.Bienvenida{
+    height: 100px;
+    text-align: center;
+
+}
+
+#train {
+    position: relative;
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+
+}
