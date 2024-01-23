@@ -31,3 +31,8 @@ train.onclick = function() {
 
     }, 20);
   }
+
+document.addEventListener('DOMContentLoaded', function() {
+
+});
+  
