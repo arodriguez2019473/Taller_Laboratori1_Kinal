@@ -1,0 +1,170 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2; /* Color de fondo general */
+}
+
+#slider {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-image: url("../Imagenes/Kinal/17.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+    overflow: hidden;
+}
+
+#slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#slider h1, #slider p {
+    position: relative;
+    z-index: 2;
+}
+
+#imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#imagenes figure {
+    text-align: center;
+    margin: 20px;
+}
+
+#imagenes img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#patrocinadores {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#patrocinadores h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#patrocinadores img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#informacion {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1a2b64;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+#informacion h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#informacion p {
+    margin-bottom: 20px;
+}
+
+#informacion button {
+    background-color: #FFD700; 
+    color: #1a2b64;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#informacion button:hover {
+    background-color: #FFC72C;  
+}
+
+#contacto {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contacto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacto label, #contacto input {
+    margin-bottom: 10px;
+}
+
+#contacto input {
+    padding: 10px;
+}
+
+#contacto input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+#donaciones {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#donaciones h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#donaciones p {
+    margin-bottom: 20px;
+}
+
+#donaciones button {
+    background-color: #28A745;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

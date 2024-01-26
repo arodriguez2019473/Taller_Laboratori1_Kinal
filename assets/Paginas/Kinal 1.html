@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/styles_3.css">
+    <title>Kinal</title>
+</head>
+<body>
+
+    <div id="slider">
+        <h1>Bienvenido A Kinal El Trabajo Bien Hecho</h1>
+        <p>Explora nuestras admisiones del 2024 tanto en Perito como Basicos</p>
+    </div>
+
+    <div id="imagenes">
+        <figure>
+            <img src="../Imagenes/Kinal/1.webp" alt="Imagen 1">
+            <figcaption>Ciclo Básicos</figcaption>
+        </figure>
+
+        <figure>
+            <img src="../Imagenes/Kinal/2.webp" alt="Imagen 2">
+            <figcaption>Ciclo Diversificado</figcaption>
+        </figure>
+
+        <figure>
+            <img src="../Imagenes/Kinal/3.webp" alt="Imagen 3">
+            <figcaption>Escuela de Adultos</figcaption>
+        </figure>
+
+        <figure>
+            <img src="../Imagenes/Kinal/4.webp" alt="Imagen 4">
+            <figcaption>Programas para tu Negocio</figcaption>
+        </figure>
+
+        <figure>
+            <img src="../Imagenes/Kinal/5.webp" alt="Imagen 5">
+            <figcaption>Técnicos Universitarios</figcaption>
+        </figure>
+    </div>
+
+    <div id="patrocinadores">
+        <h2>Nuestros Patrocinadores</h2>
+        <img src="../Imagenes/Kinal/6.png" alt="Patrocinador 1">
+        <img src="../Imagenes/Kinal/7.png" alt="Patrocinador 2">
+        <img src="../Imagenes/Kinal/8.png" alt="Patrocinador 3">
+        <img src="../Imagenes/Kinal/9.png" alt="Patrocinador 4">
+        <img src="../Imagenes/Kinal/10.png" alt="Patrocinador 5">
+        <img src="../Imagenes/Kinal/11.png" alt="Patrocinador 6">
+        <img src="../Imagenes/Kinal/12.png" alt="Patrocinador 7">
+        <img src="../Imagenes/Kinal/13.png" alt="Patrocinador 8">
+        <img src="../Imagenes/Kinal/14.png" alt="Patrocinador 9">
+        <img src="../Imagenes/Kinal/15.png" alt="Patrocinador 10">
+    </div>
+
+    <div id="informacion">
+        <h2>Necesitamos más jóvenes de este lado</h2>
+        <p>Cada donación que haces ayuda a la educación de un joven guatemalteco de escasos recursos a tener una educación de calidad</p>
+        <button onclick="mostrarInformacion()">Mostrar más</button>
+        <div id="info-detallada" style="display: none;">
+            <p>¡Visítanos en nuestra ubicación!</p>
+            <address>
+                6 avenida 13-54 zona 7, Colonia Landívar,<br>
+                01007 Ciudad de Guatemala, Guatemala, C.A.
+            </address>
+        </div>
+    </div>
+    
+
+    <div id="contacto">
+        <h2>Contacto</h2>
+        <form onsubmit="return validarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div id="donaciones">
+        <h2>Apoya Nuestra Causa</h2>
+        <p>Tu generosidad puede cambiar vidas. ¡Haz una donación hoy!</p>
+        <button onclick="hacerDonacion()">Hacer Donación</button>
+    </div>
+
+    <script src="../scripts/Logica_Kinal.js"></script>
+</body>
+</html>
